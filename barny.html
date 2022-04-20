@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+
+
+<body> 
+    
+    <div class="mouth" id="cursor">
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="one"><h2>Hello there! </h2><br> welcome to my web-site. <br>
+        This is Barnabas. <br> I am the Boss here. <br>
+    Enjoy!  </div>
+
+        <div class="two"> <h2>Sepecialities </h2>
+           <ol> <li>UX/UI  design</li>
+            
+            <li>2D and 3D animated websites</li>
+            <li>Photography and Editting</li>
+        </ol></div>
+
+    <div class="side"> <h2>contacts</h2>
+        <div class="card">
+            <h2>Contact Us</h2>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label>First Name</label>
+                  <input type="text">
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="form-group">
+                  <label>Surname</label>
+                  <input type="text">
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="text">
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="form-group">
+                  <label>Phone</label>
+                  <input type="text">
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="form-group">
+                  <label>Message</label>
+                  <textarea></textarea>
+                </div>
+              </div>
+          
+              <div class="col">
+                <input type="submit" value="Submit">
+              </div>
+            </div>
+          </div>
+
+
+    </div>
+
+
+        <div class="center">
+            <img src="profile.svg" > 
+        </div>
+    </div>
+
+
+
+<script type="text/javascript">
+    var cursor = document.getElementById('cursor');
+document.addEventListener('mousemove', function(e)
+{var x= e.clientX;
+var y= e.clientY;
+cursor.style.left= x + "px";
+cursor.style.top= y + "px";
+});
+</script>
+
+</body>
+
+</html>
